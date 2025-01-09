@@ -48,6 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="CSVFiles\netflix_titles.csv" />
+    <None Include="CSVFiles\pizza_sales.csv" />
+    <None Include="CSVFiles\superstore.csv" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="KaggleDatasetLinks\TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
